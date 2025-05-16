@@ -21,12 +21,12 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Url shortner (nodejs)',
+    name: 'Consumer Reports',
     description:
-      'A powerful URL shortening application built with Node.js, JWT Authentication, EJS, and MongoDB. This project allows users to securely log in and generate shortened URLs with ease.',
-    stack: ['NodeJs', 'Jwt', 'Ejs','MongoDB'],
-    sourceCode: 'https://github.com/umg026/Url-shortner-node.js',
-    // livePreview: 'https://github.com',
+      'Consumer Reports (CR), formerly Consumers Union (CU), is an American nonprofit consumer organization dedicated to independent product testing, investigative journalism, consumer-oriented research, public education, and consumer advocacy',
+    stack: ['ReactJs', 'Laravel', 'Abodbe Analytics', 'SevlteJs'],
+    // sourceCode: 'https://github.com/umg026/Url-shortner-node.js',
+    livePreview: 'http://consumerreports.org/cars/used',
   },
   {
     name: 'Suhora',
@@ -37,20 +37,20 @@ const projects = [
      livePreview: 'https://suhora.com',
   },
   {
-    name: 'CMS-content management system',
+    name: 'CRM - Ai Sante',
     description:
-      'A robust Content Management System (CMS) built for admins to efficiently manage and approve stories written by authors. Developed with React.js, Redux, and SASS,',
+      'AI Sante offers tailored CRM solutions for the pharmaceutical industry, streamlining operations, boosting sales, and enhancing connections across',
     stack: ['ReactJs', 'Redux', 'SASS'],
-    sourceCode: 'https://github.com/umg026/CMS-forntend',
-    // livePreview: 'https://github.com',
+    // sourceCode: 'https://github.com/umg026/CMS-forntend',
+    livePreview: 'https://pharma.aisante.in/',
   },
   {
-    name: 'Jwt Authentication system',
+    name: 'Toyota - Colombia',
     description:
-      'A secure JWT Authentication System developed with Node.js, React.js, Zustand, JWT, and MongoDB. This project enables user authentication.',
-    stack: ['NodeJs', 'ReactJs', 'Zustand', 'Jwt', 'MongoDB'],
+      'Toyota Motor Corporation is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan. It was founded by Kiichiro Toyoda and incorporated on August 28, 1937. Toyota is the largest automobile manufacturer in the world, producing about 10 million vehicles per year.',
+    stack: ['NextJs', 'ReactJs'],
     // sourceCode: 'https://github.com',
-    // livePreview: 'https://github.com',
+     livePreview: 'https://stage.d34auqrbm43ik5.amplifyapp.com/',
   },
   {
     name: 'Chating web-app',
@@ -63,8 +63,6 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'NodeJs',
   'ReactJS',
   'Redux',
@@ -77,6 +75,7 @@ const skills = [
   'Git',
   'ExpressJs',
   'MongoDB',
+  'Tailwind CSS',
   'MySql',
 ]
 
